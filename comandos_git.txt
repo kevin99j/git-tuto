@@ -29,3 +29,4 @@ git reset --hard "id del cambio a volver" // volver en el tiempo recuperando arc
 
 git reflog  // se ve el historial absoluto 
  
+ git merge "nombre rama "
