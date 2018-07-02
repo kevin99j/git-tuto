@@ -1,3 +1,6 @@
+git config --global user.email 
+git config --global user.name  
+
 git init // indica que esto es un repositorio
 git status // indica el estado del repositorio
 git add  // se adieren los archivos para ser comiteados luego 
@@ -5,6 +8,12 @@ git commit -m "Mensaje de commit"
 git diff  // muestra el lugar de los cambios 
 git checkout . // revierte los cambios al ultimo commit 
 git log        // historico de cambios 
+git add "nombre del archivo" // agrega unicamente el archivo mencionado 
+git add "nombre carpeta"/  // indica que se está agregando un directorio
+git add "nombre carpeta"/* "extension archivo"  // indica cambios a guardar en una carpeta con extensión unica ejm git add css/*.css
+git reset "nombre del archivo"   indica la salida del stage y funciona inverso al add 
+git add --all 
+git add -a 
 
-
-
+git help "comando" saber para que funciona cada comando 
+git config --global alias."abreviacion o alias"  ""nombre del comando""
