@@ -4,4 +4,7 @@ git add  // se adieren los archivos para ser comiteados luego
 git commit -m "Mensaje de commit"
 git diff  // muestra el lugar de los cambios 
 git checkout . // revierte los cambios al ultimo commit 
+git log        // historico de cambios 
+
+
 
