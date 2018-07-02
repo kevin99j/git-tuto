@@ -17,3 +17,15 @@ git add -a
 
 git help "comando" saber para que funciona cada comando 
 git config --global alias."abreviacion o alias"  ""nombre del comando""
+
+git commit --amend -m "cuarto commit" // modificar ultimo commit
+git mv "nombre archivo " "nuevo nombre" // modifica nombre archivo 
+
+git rm "nombre archivo "   // elimina un archivo
+
+git reset --soft "id del cambio a volver" // volver en el tiempo de el repositorio sin recuperar archivo
+git reset --mixed "id del cambio a volver " 
+git reset --hard "id del cambio a volver" // volver en el tiempo recuperando archivo
+
+git reflog  // se ve el historial absoluto 
+ 
