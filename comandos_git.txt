@@ -28,6 +28,7 @@ git reset --mixed "id del cambio a volver "
 git reset --hard "id del cambio a volver" // volver en el tiempo recuperando archivo
 
 git reflog  // se ve el historial absoluto 
+
  
 git branch "nombre rama"
 
@@ -41,3 +42,15 @@ git branch -d "nombre rama"  // elimina la rama
 
 git checkout -b "nombre rama " // crea la rama y lo mueve a ella
 
+git tag "nombre tag"
+git tag -a v1.0.0 -m "nombre tag"
+git tag -a v0.0.0 "id de la rama" -m "mensaje"
+
+github
+
+git remote add origin git@github.com:kevin99j/git-tuto.git
+git push -u origin master
+
+git pull origin master
+
+git fork // descargar sin ligarse al proyecto 
