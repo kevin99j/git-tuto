@@ -29,3 +29,14 @@ git reset --hard "id del cambio a volver" // volver en el tiempo recuperando arc
 
 git reflog  // se ve el historial absoluto 
  
+git branch "nombre rama"
+
+git log --oneline --decorate --all --graph //forma mas visual 
+
+git checkout "nombre rama "
+
+git merge "nombre de la rama"  // se hace estando parado en master
+
+git branch -d "nombre rama"  // elimina la rama 
+
+git checkout -b "nombre rama " // crea la rama y lo mueve a ella
