@@ -1,1 +1,2 @@
-eclipse.conf
+eclipse.conf -- ignorar archivo
+/conf/  -- ignorar carpetas
